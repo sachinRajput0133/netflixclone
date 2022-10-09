@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+   
+    position: sticky;
+    top: 0;
+    /* background-color: rgba(17, 17, 17, 0); */
+    /* width: 100vw; */
+    /* padding: 20px; */
+    z-index: 999;
+    justify-content: space-between;
+    /* background: rgb(116, 82, 82); */
+    /* Animation */
+    /* transition: all .5s ease-in; */
+}
+.header-black{
+    background-color: #111;
+    height: 56px;
+    transition: all .3s ease;
+}
+.header-logo{
+    width: 100px;
+    left: 30px;
+    object-fit: contain;
+    position: fixed;
+    /* width: 75px; */
+    top: 20px;
+    
+}
+
+
+
+.header-user-icon{
+    right: 20px;
+    position: fixed;
+    height: 20px;
+    top: 20px;
+}
